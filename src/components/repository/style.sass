@@ -1,0 +1,42 @@
+.Card
+  display: block
+  margin: 0 0 8px
+  padding: 16px
+  border: 1px solid #c5c5c5
+  transition: all 0.5s ease
+
+  &:hover
+    box-shadow: -4px 10px 117px -10px rgba(0,0,0,0.51)
+
+  &:after
+    content: ''
+    clear: both
+    display: table
+
+  aside
+    float: left
+
+  header
+    width: 80%
+    float: left
+    color: #333
+
+  .Card__title
+    margin-bottom: 4px
+    font-weight: bold
+    font-size: 16px
+
+  .Card__meta
+    color: #4f4f4f
+    font-size: 12px
+    font-style: italic
+
+  .Avatar
+    display: block
+    margin-right: 16px
+
+  &.Card--error
+    background: #d23923
+    color: white
+    font-weight: 700
+    border: 0
